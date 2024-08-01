@@ -33,7 +33,7 @@ resource "aws_s3_bucket_notification" "bucket_notification" {
     filter_suffix = ".log"
   }
 }
-
+ 
 resource "aws_sns_topic_subscription" "email" {
   endpoint  = "name.name@example.com"
   protocol  = "email"

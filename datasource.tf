@@ -1,7 +1,7 @@
 data "aws_iam_policy_document" "topic" {
   statement {
     effect = "Allow"
-
+ 
     principals {
       type        = "Service"
       identifiers = ["s3.amazonaws.com"]

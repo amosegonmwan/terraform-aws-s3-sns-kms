@@ -1,8 +1,8 @@
-# AWS Infrastructure with Terraform
+# AWS s3 Backend with Terraform (SNS, KMS & Lifecyle)
 
 This repository contains Terraform configurations for setting up an AWS infrastructure with S3, SNS, and KMS. The configuration includes creating an S3 bucket, setting up notifications, encryption, lifecycle management, and creating SNS topics and subscriptions.
 
-## Files Overview
+## Files Overview 
 
 ### `datasource.tf`
 
@@ -37,18 +37,18 @@ Defines input variables used in the configuration:
 - `env`: Environment (e.g., prod, dev).
 - `status`: Status for versioning configuration.
 
-### `terraform.tfvars`
-
-Provides values for the variables defined in `variables.tf`:
-- `env`: "prod"
-- `topic_name`: "wema"
-- `my_bucket`: "devops"
-- `team`: "cloud"
-- `status`: "Enabled"
-
 ### `providers.tf`
 
 Specifies the required Terraform version and providers:
 - **Terraform Version**: `~> 1.0`
 - **AWS Provider**: `~> 5.0`
 - **AWS Region**: `us-west-2`
+
+## Usage
+
+1. **Install Terraform**: Ensure you have Terraform installed on your system. Follow the instructions on the [Terraform website](https://www.terraform.io/downloads.html).
+
+2. **Clone the Repository**:
+   ```sh
+   git clone https://github.com/yourusername/your-repo-name.git
+   cd your-repo-name
