@@ -1,4 +1,4 @@
-# AWS s3 Backend with Terraform (SNS, KMS & Lifecyle)
+# Terraform s3 Backend with (SNS, KMS & Lifecyle)
 
 This repository contains Terraform configurations for setting up an AWS infrastructure with S3, SNS, and KMS. The configuration includes creating an S3 bucket, setting up notifications, encryption, lifecycle management, and creating SNS topics and subscriptions.
 
