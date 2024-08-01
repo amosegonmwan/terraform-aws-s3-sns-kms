@@ -44,11 +44,3 @@ Specifies the required Terraform version and providers:
 - **AWS Provider**: `~> 5.0`
 - **AWS Region**: `us-west-2`
 
-## Usage
-
-1. **Install Terraform**: Ensure you have Terraform installed on your system. Follow the instructions on the [Terraform website](https://www.terraform.io/downloads.html).
-
-2. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/yourusername/your-repo-name.git
-   cd your-repo-name
